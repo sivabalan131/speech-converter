@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(43,38,112),rgb(182,54,103));
+}
+.container{
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+ align-items: center;
+    height: 100vh;
+}
+.textarea textarea{
+padding: 10px;
+border-radius: 15px;
+margin: 10px;
+outline: 0;
+background-color:transparent;
+backdrop-filter:blur(20px);
+color: white;
+resize: none;
+}
+.button{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    column-gap: 10px;
+    backdrop-filter: blur(20px);
+}
+.symbol {
+border-radius: 50%;
+outline: 0;
+border: none;
+background-color: transparent;
+backdrop-filter: blur(50%);
+scale: 1;
+}
+button:hover{
+    scale: 1.2;
+}
+.selector select{
+    width: 400px;
+    outline: 0;
+   background-color: transparent;
+   border: 0.2px solid;
+    padding: 10px;
+    outline: 0;
+}
+select option{
+background: rgb(182,54,103);
+}
+select{
+    border-radius: 15px;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.button button{
+    padding: 10px;
+}
+.container p{
+font-size: 45px;
+color: rgb(190,193,194);
+}
+.container span{
+    color: rgb(90,135,198);
+}
+.convert{
+    background-color: rgb(190,193,194);
+    border-radius: 7px;
+    box-shadow: 0 0 50px rgb(90,135,198);
+    border: none;
+}

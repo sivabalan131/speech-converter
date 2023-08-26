@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>speech converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/939ab9986e.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-pause-o.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-button-o.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/close-o.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <p>Speech <span>Converter</span></p>
+        <div class="textarea">
+            <textarea name="" id="txtarea" cols="100" rows="15" placeholder="Hi,I am google speech synthesis, I am here to guide you "></textarea>
+        </div>
+        <div class="row">
+        <div class="selector">
+            <select name="" id="voices">
+                
+            </select>
+        </div>
+        <div class="button">
+            <button onclick="speak()" class="convert">Convert</button>
+            <button onclick="pase()" class="symbol"><i class="gg-play-pause-o"></i></button>
+            <button onclick="resume()" class="symbol"><i class="gg-play-button-o"></i></button>
+            <button onclick="cancel()" class="symbol"><i class="gg-close-o"></i></button>
+            
+        </div>
+        
+        </div>
+    </div>
+<script src="./speech.js"></script>
+</body>
+</html>
